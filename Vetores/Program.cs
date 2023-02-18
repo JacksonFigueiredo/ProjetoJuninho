@@ -10,33 +10,29 @@
 
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            int tamanhoVetor = 1000000000;
+            Random numeroAleatorio = new Random();
+            double[] vetor = new double[tamanhoVetor];
 
-            double[] vetor = new double[n];
-
-            for (int i = 0; i < n;i++)
+            for (int i = 0; i < tamanhoVetor; i++)
             {
-                vetor[i] = double.Parse(Console.ReadLine());
+                vetor[i] = numeroAleatorio.Next(1,50000000);
             }
 
-            Console.WriteLine("Soma : " + vetor.Sum()); // Soma o vetor + Exibe com Contatenação.
-            Console.WriteLine(String.Format("Soma : {0}",vetor.Sum())); // Soma o vetor + Exibe a String com Interpolação
+            Console.WriteLine(String.Format("Soma : {0}",vetor.Sum()));
 
-            // Algumas Operações :
 
             var watch1 = System.Diagnostics.Stopwatch.StartNew();
-            //Obter a Média de forma 1
-            Console.WriteLine(String.Format("A Média de Valores é : {0}", vetor.Sum() / n));
+            Console.WriteLine(String.Format("A Média de Valores é : {0} ", vetor.Sum() / tamanhoVetor));
             watch1.Stop();
-            var elapsedMs1 = watch1.ElapsedTicks;
-            Console.WriteLine("Elapsed 1 : " + elapsedMs1);
+            var elapsedMs1 = watch1.ElapsedMilliseconds;
+            Console.WriteLine("Elapsed 1 : " + elapsedMs1 + " Milisegundos");
 
             var watch2 = System.Diagnostics.Stopwatch.StartNew();
-            //Ovter a Média de forma 2
-            Console.WriteLine(String.Format("A Média de Valores é : {0}", vetor.Average()));
+            Console.WriteLine(String.Format("A Média de Valores é : {0} Milisegundos", vetor.Average()));
             watch2.Stop();
-            var elapsedMs2 = watch2.ElapsedTicks;
-            Console.WriteLine("Elapsed 2 : " + elapsedMs2);
+            var elapsedMs2 = watch2.ElapsedMilliseconds;
+            Console.WriteLine("Elapsed 2 : " + elapsedMs2 + " Milisegundos");
 
 
         }
