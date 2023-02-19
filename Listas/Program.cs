@@ -10,14 +10,12 @@
 
         static void Main(string[] args)
         {
-            List<string> list = new List<string>();
+            List<int> list = new List<int>();
 
-            list.Insert(0, "Bolsonaro"); // Entra primeiro, index tá 0
-            list.Add("Ciro");
-            list.Add("Lula");
-            list.Add("Tablet");
+            list.Add(1234);
+            list.Add(222);
 
-            foreach (string item in list)
+            foreach (int item in list)
             {
                 // Console.WriteLine(String.Format("{0}",item)); 
                 // caso ao inves de string for var, terá que usar o stirng format.
@@ -25,8 +23,8 @@
 
             }
 
-            Console.WriteLine(list.Find(x => x == "Bolsonaro")); // Procura na lista toda a palavra que corresponda com a busca.
-            Console.WriteLine(list.Find(x => x[1] == 'B')); // Procura na lista toda a palavra que corresponda com a primeira letra (B) tá buscando pelo CHAR no IndexB
+            Console.WriteLine(list.Find(x => x > 12)); // Procura na lista toda a palavra que corresponda com a busca.
+           
 
 
         }
