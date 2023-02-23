@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listas", "Listas\Listas.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtualizandoLista", "AtualizandoLista\AtualizandoLista.csproj", "{76A71683-AB46-4CED-A971-E5299D93A620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matrizes.csproj", "{272A5F9D-22BB-48CE-AD83-EC2BA4562D50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrizes", "Matrizes\Matrizes.csproj", "{272A5F9D-22BB-48CE-AD83-EC2BA4562D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{033FB349-9F6E-43CA-81FC-AB6555DCE2D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{272A5F9D-22BB-48CE-AD83-EC2BA4562D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{272A5F9D-22BB-48CE-AD83-EC2BA4562D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{272A5F9D-22BB-48CE-AD83-EC2BA4562D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033FB349-9F6E-43CA-81FC-AB6555DCE2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033FB349-9F6E-43CA-81FC-AB6555DCE2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033FB349-9F6E-43CA-81FC-AB6555DCE2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033FB349-9F6E-43CA-81FC-AB6555DCE2D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
