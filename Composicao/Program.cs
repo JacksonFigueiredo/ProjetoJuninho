@@ -42,7 +42,7 @@ namespace Composicao
             string monthYear = Console.ReadLine();
             int month = int.Parse(monthYear.Substring(0, 2));
             int year = int.Parse(monthYear.Substring(3));
-            Console.WriteLine(worker.Income(month, year));
+            Console.WriteLine(worker.Income(year,month));
 
         }
     }
