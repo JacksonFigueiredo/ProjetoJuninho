@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrizes", "Matrizes\Matriz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{033FB349-9F6E-43CA-81FC-AB6555DCE2D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternarios", "Ternarios\Ternarios.csproj", "{642A089A-F6C7-4D88-A552-7F6B30084B47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{033FB349-9F6E-43CA-81FC-AB6555DCE2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{033FB349-9F6E-43CA-81FC-AB6555DCE2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{033FB349-9F6E-43CA-81FC-AB6555DCE2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642A089A-F6C7-4D88-A552-7F6B30084B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642A089A-F6C7-4D88-A552-7F6B30084B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642A089A-F6C7-4D88-A552-7F6B30084B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642A089A-F6C7-4D88-A552-7F6B30084B47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
