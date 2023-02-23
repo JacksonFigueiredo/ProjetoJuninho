@@ -1,4 +1,6 @@
-﻿namespace Enum
+﻿using EnumProject.Entities;
+
+namespace EnumProject
 {
     internal class Program
     {
@@ -6,7 +8,8 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Order order = new Order();
+
         }
     }
 }
