@@ -27,8 +27,10 @@ namespace PalavrasOverrideVirtualeBase.Entities
 
         public override void Withdraw(double amount) // adicionando o override, você dá a possibilidade de re-escrever um método pré-existente que foi herdado porém marcado como virtual.
         {
+            base.Withdraw(amount);
             Balance -= amount;
         }
+
 
 
     }
