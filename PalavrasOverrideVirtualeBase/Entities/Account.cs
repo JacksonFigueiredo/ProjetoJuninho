@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PalavrasOverrideVirtualeBase.Entities
 {
-    class Account
+    abstract class Account // classes abstratas não podem ser instanciadas.
     {
         public int Number { get; private set; }
         public string Holder { get; private set; }
