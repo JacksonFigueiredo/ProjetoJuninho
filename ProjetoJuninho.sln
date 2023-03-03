@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet", "HashSet\HashSet.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{98BDD463-6E02-4260-95D6-3468171DC633}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{DDBBF848-F794-4C88-A595-E21EA17851FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{98BDD463-6E02-4260-95D6-3468171DC633}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98BDD463-6E02-4260-95D6-3468171DC633}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98BDD463-6E02-4260-95D6-3468171DC633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBBF848-F794-4C88-A595-E21EA17851FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBBF848-F794-4C88-A595-E21EA17851FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBBF848-F794-4C88-A595-E21EA17851FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBBF848-F794-4C88-A595-E21EA17851FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
