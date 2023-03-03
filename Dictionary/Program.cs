@@ -33,6 +33,13 @@
 
             Console.WriteLine("O Vencedor é a {0} com {1} votos",totalizacao.OrderByDescending(x => x.Value).First().Key, totalizacao.OrderByDescending(x => x.Value).First().Value);
 
+
+            int teste = 0;      
+            totalizacao.TryGetValue("Jackson",out teste);
+            Console.WriteLine(totalizacao.TryGetValue("Jackson", out teste));
+
+
+
         }
     }
 }
