@@ -18,8 +18,6 @@
             }
 
             Console.WriteLine("A Idade de todos é {0}",soma);
-
-            Console.WriteLine("A Maior idade é {0}", hashset.Where(x => x.Idade == x.Idade).First().NomePessoa);
             Console.WriteLine("A Maior idade é {0}", hashset.Where(x => x.Idade == x.Idade).First().NomePessoa);
 
         }
