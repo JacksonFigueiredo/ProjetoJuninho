@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composicao", "Composicao\Composicao.csproj", "{8F253E3F-6A1A-49F5-814B-C00E267A9727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaPolimorfismo", "HerancaPolimorfismo\HerancaPolimorfismo.csproj", "{E381E05D-C975-4BD0-9543-67A7260C3E1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerancaPolimorfismo", "HerancaPolimorfismo\HerancaPolimorfismo.csproj", "{E381E05D-C975-4BD0-9543-67A7260C3E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpcastingDowncasting", "UpcastingDowncasting\UpcastingDowncasting.csproj", "{6F09775F-09C6-49E6-9215-6DFB6A28809F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpcastingDowncasting", "UpcastingDowncasting\UpcastingDowncasting.csproj", "{6F09775F-09C6-49E6-9215-6DFB6A28809F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalavrasOverrideVirtualeBase", "PalavrasOverrideVirtualeBase\PalavrasOverrideVirtualeBase.csproj", "{52A943DB-1FFD-4E10-AC35-9FF8486744CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalavrasOverrideVirtualeBase", "PalavrasOverrideVirtualeBase\PalavrasOverrideVirtualeBase.csproj", "{52A943DB-1FFD-4E10-AC35-9FF8486744CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet", "HashSet\HashSet.csproj", "{8319D094-81BA-4DFE-871F-1E53968D77D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{52A943DB-1FFD-4E10-AC35-9FF8486744CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A943DB-1FFD-4E10-AC35-9FF8486744CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A943DB-1FFD-4E10-AC35-9FF8486744CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8319D094-81BA-4DFE-871F-1E53968D77D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8319D094-81BA-4DFE-871F-1E53968D77D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8319D094-81BA-4DFE-871F-1E53968D77D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8319D094-81BA-4DFE-871F-1E53968D77D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
